@@ -26,8 +26,8 @@ def mail(title,mailbody):
     except Exception:  # 如果 try 中的语句没有执行，则会执行下面的 ret=False
         ret=False
     return ret
-bt = "下班啦";
-mailMessage = "下班啦，冲鸭！！！！！";
+bt = "嘻嘻嘻";
+mailMessage = "嘻嘻嘻嘻！";
 ret=mail(bt,mailMessage)
 if ret:
     print("邮件发送成功")
