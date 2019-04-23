@@ -1,0 +1,6 @@
+import numpy as np
+
+x = np.arange(4).reshape((2,2))
+print(x)
+x = x.transpose(1,0)
+print(x)
