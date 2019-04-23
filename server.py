@@ -22,4 +22,5 @@ while True:
 	c,addr = s.accept()
 	print ('连接地址：', addr)
 	c.send('欢迎'.encode())
-	c.close()	# 关闭连接
+	# 关闭连接
+	c.close()	
