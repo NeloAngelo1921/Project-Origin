@@ -8,7 +8,7 @@ from email.utils import formataddr
 my_sender = 'wxiao0921@qq.com'
 # 授权码
 # my_pass = 'wkvvdtgtaejmfhef'
-my_pass = 'jlyyxndlqatobjib';
+my_pass = 'jlyyxndlqatobjib'
 # 收件人邮箱账号
 my_user = 'wxiao1921@qq.com'
 def mail(title,mailbody):
@@ -26,8 +26,8 @@ def mail(title,mailbody):
     except Exception:  # 如果 try 中的语句没有执行，则会执行下面的 ret=False
         ret=False
     return ret
-bt = "嘻嘻嘻";
-mailMessage = "嘻嘻嘻嘻！";
+bt = "1334"
+mailMessage = "嘻嘻嘻嘻！"
 ret=mail(bt,mailMessage)
 if ret:
     print("邮件发送成功")
